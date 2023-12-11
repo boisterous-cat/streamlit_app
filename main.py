@@ -32,6 +32,16 @@ def show_main_page():
             'About': "#МОВС23 Applied Python. Собираем всю информацию о клиентах в одну таблицу. Представляем EDA. Делаем предсказания."
         }
     )
+    st.markdown(
+        """
+    <style>
+        [data-testid="collapsedControl"] {
+            display: none
+        }
+    </style>
+    """,
+        unsafe_allow_html=True,
+    )
     st.write(
         """
         # Вероятность отлика клиента на предложение банка
