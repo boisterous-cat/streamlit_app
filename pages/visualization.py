@@ -127,7 +127,7 @@ def show_page(df):
     plot = sns.barplot(y=correlations.index, x=correlations, palette=palette)
     plot.set(xlabel='Correlation', ylabel='Feature')
     st.pyplot(plot.get_figure())
-    st.caption('As you can see _Age_ has the most negative correlation with _Target_. That means the more is the age of a client the less is the probability that he will respond to the offer.\n The same situation is with _Pensioners_ and those who closed their credit.\n On the opposite _Personal income_ is the most positive correlation with _Target. Thus, we can say that people with higher income more ikely respond to the offer.\nThe same is with working people who, oppoite to pensioners, are more possitive to the offer.')
+    st.caption('As you can see _Age_ has the most negative correlation with _Target_. That means the more is the age of a client the less is the probability that he will respond to the offer.\n The same situation is with _Pensioners_ and those who closed their credit.\n On the opposite _Personal income_ is the most positive correlation with _Target_. Thus, we can say that people with higher income more ikely respond to the offer.\nThe same is with working people who, oppoite to pensioners, are more possitive to the offer.')
     st.divider()
 
     st.subheader('Value count of credit amount:')
